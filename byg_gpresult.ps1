@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-	Clean disk remotely 
+	gpresult
 .DESCRIPTION
     Run in MCM tool
 .EXAMPLE
@@ -12,3 +12,5 @@
 	Last update: 2019-02-28
 	Status: Tested / Not Tested / Failed
 #>
+
+gpresult /scope:computer /h c:\log\gpresult.html -f
